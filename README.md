@@ -17,6 +17,8 @@ Cards _must_ have the icon on _only one_ side.
 
 Other than this, cards can have literally anything on them!
 
+You can retroactively include business cards you already own by drawing the icon on the card or printing stickers with the icons on them and placing them on the card(s) you'd like to use.
+
 # How To Play
 Paper Icon beats Rock Icon.     
 Rock Icon beats Scissors Icon.    
