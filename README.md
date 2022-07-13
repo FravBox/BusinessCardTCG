@@ -69,3 +69,7 @@ The cards should be the standard business card size of 3.5" x 2". In `/templates
 Your card can have literally anything on it as long as it has one of the 3 icons. Some sample cards have been provided for inspiration and starter decks in `/cards/`
 </details>
 
+# Questions, Issues, Additions
+
+Feel free to contact me on Twitter: [jy_den](https://twitter.com/jy_den).     
+You can also start a discussion, issue, and/or pull request.
