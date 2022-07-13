@@ -23,7 +23,7 @@ You can retroactively include business cards you already own by drawing the icon
 Paper Icon beats Rock Icon.     
 Rock Icon beats Scissors Icon.    
 Scissors Icon beats Paper Icon.
-
+<details> <summary> Different Play Methods</summary>
 ## Standard Method
 There are two players. They shuffle their decks and place them face down. They each draw the first card and place it face up. Winning icon wins the game. You can play any number of rounds. The minimum deck size is one.
 
@@ -42,4 +42,4 @@ Each card in their hand can only be played once. Play continues until they are o
 You can make up your own rules. It can be ROshambo-based or based on something entirely different. Maybe you each have large decks, so you play a modified game of Go Fish for a pair of two cards with a specific name, letter, or theme. Perhaps you share a deck and play a community-specific version of Guess Who.
 
 The options are limitless.
-
+</details>
