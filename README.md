@@ -3,12 +3,13 @@ The Business Card Trading Card Game was invented to incentivize swapping cards a
 
 Literally any business card can be added to a deck simply. You only need two players with one card each to get started.
 
-# Intent
+<details> <summary><b>Intent</b></summary>
 
 In the 90s, hobby and fandom meetups would pass around VHS tapes, booklets, and CDs to help pass their work around within their respective communities.     
 Now that everything is digital, these physical pieces of memorabilia rarely get passed around anymore. 
 
-So I decided to invent an easy to acess method and game to share our social media and work among our friends at meetups and conventions in a fun and interesting way. 
+So I decided to invent an easy to access method and game to share our social media and work among our friends at meetups and conventions in a fun and interesting way. 
+</details>
 
 # License
 [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
@@ -30,7 +31,7 @@ You can retroactively include business cards you already own by drawing the icon
 Paper Icon beats Rock Icon.     
 Rock Icon beats Scissors Icon.    
 Scissors Icon beats Paper Icon.
-<details> <summary> Different Play Methods</summary>
+<details> <summary> <b>Different Play Methods</b></summary>
   
 ## Standard Method
 There are two players. They shuffle their decks and place them face down. They each draw the first card and place it face up. Winning icon wins the game. You can play any number of rounds. The minimum deck size is one.
@@ -47,7 +48,24 @@ Each card in their hand can only be played once. Play continues until they are o
 
 ## Creative Method
 
-You can make up your own rules. It can be ROshambo-based or based on something entirely different. Maybe you each have large decks, so you play a modified game of Go Fish for a pair of two cards with a specific name, letter, or theme. Perhaps you share a deck and play a community-specific version of Guess Who.
+You can make up your own rules. It can be Roshambo-based or based on something entirely different. Maybe you each have large decks, so you play a modified game of Go Fish for a pair of two cards with a specific name, letter, or theme. Perhaps you share a deck and play a community-specific version of Guess Who.
 
 The options are limitless.
 </details>
+
+# Making Cards
+<details> <summary> Required Icons </summary>
+In order to play the game, the business card must have 1 of 3 icons: Rock, Paper, or Scissors.
+
+The suggested icons are these public domain ones made by [Fission Strategy](https://thenounproject.com/fissionstrategy/). They have been re-uploaded here in `/icons/` in both PNG and SVG formats.     
+These icons can be any orientation, color, or size, as long as they are immediately legible on the card.
+
+However, you can use other icons that represent the same thing, as long as they are easily understood.
+</details>
+
+<details> <summary> Design </summary>
+The cards should be the standard business card size of 3.5" x 2". In `/templates/` you will find a very basic PSD and PNG file of the appropriate size.
+
+Your card can have literally anything on it as long as it has one of the 3 icons. Some sample cards have been provided for inspiration and starter decks in `/cards/`
+</details>
+
