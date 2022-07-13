@@ -3,6 +3,8 @@ These are cards people have volunteered in order for you to collect a "starter d
 
 **This is not an all-inclusive list of cards that exist.** Anyone, at any time, can create any card that is compatible with the game! And we hope that you will swap and trade these cards at gatherings related to your hobby and/or fandom, such as at conventions and event meetups.
 
+Anyone can make their own cards for this collection game, and you can put anything you want on your card. You can even have multiple variations of your card. Have fun with it!
+
 ## Decks
 The sample decks here are seperated by hobby community.
 
