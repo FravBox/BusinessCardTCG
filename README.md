@@ -3,6 +3,13 @@ The Business Card Trading Card Game was invented to incentivize swapping cards a
 
 Literally any business card can be added to a deck simply. You only need two players with one card each to get started.
 
+# Intent
+
+In the 90s, hobby and fandom meetups would pass around VHS tapes, booklets, and CDs to help pass their work around within their respective communities.     
+Now that everything is digital, these physical pieces of memorabilia rarely get passed around anymore. 
+
+So I decided to invent an easy to acess method and game to share our social media and work among our friends at meetups and conventions in a fun and interesting way. 
+
 # License
 [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](https://creativecommons.org/licenses/by-sa/4.0/)
 
@@ -24,6 +31,7 @@ Paper Icon beats Rock Icon.
 Rock Icon beats Scissors Icon.    
 Scissors Icon beats Paper Icon.
 <details> <summary> Different Play Methods</summary>
+  
 ## Standard Method
 There are two players. They shuffle their decks and place them face down. They each draw the first card and place it face up. Winning icon wins the game. You can play any number of rounds. The minimum deck size is one.
 
