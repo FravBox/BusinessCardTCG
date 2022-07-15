@@ -1,5 +1,5 @@
 # Starter Cards
-These are cards people have volunteered in order for you to collect a "starter deck" and/or take ideas from on how to design your card.
+These are cards people have volunteered in order for you to collect a "starter deck" and/or take ideas from so you can more easily design your own card.
 
 **This is not an all-inclusive list of cards that exist.** Anyone, at any time, can create any card that is compatible with the game! And we hope that you will swap and trade these cards at gatherings related to your hobby and/or fandom, such as at conventions and event meetups.
 
