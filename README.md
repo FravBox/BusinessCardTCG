@@ -66,7 +66,7 @@ However, you can use other icons that represent the same thing, as long as they 
 <details> <summary> Design </summary>
 The cards should be the standard business card size of 3.5" x 2". In `/templates/` you will find a very basic PSD and PNG file of the appropriate size.
 
-Your card can have literally anything on it as long as it has one of the 3 icons. Some sample cards have been provided for inspiration and starter decks in `/cards/`
+Your card can have literally anything on it as long as it has one of the 3 icons. Some sample cards have been provided for inspiration and starter decks in `/free cards/`
 </details>
 
 # Questions, Issues, Additions
