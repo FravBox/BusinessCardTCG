@@ -55,6 +55,7 @@ The options are limitless.
 
 # Making Cards
 <details> <summary> Required Icons </summary>
+
 In order to play the game, the business card must have 1 of 3 icons: Rock, Paper, or Scissors.
 
 The suggested icons are these public domain ones made by [Fission Strategy](https://thenounproject.com/fissionstrategy/). They have been re-uploaded here in `/icons/` in both PNG and SVG formats.     
@@ -64,9 +65,24 @@ However, you can use other icons that represent the same thing, as long as they 
 </details>
 
 <details> <summary> Design </summary>
+
 The cards should be the standard business card size of 3.5" x 2". In `/templates/` you will find a very basic PSD and PNG file of the appropriate size.
 
 Your card can have literally anything on it as long as it has one of the 3 icons. Some sample cards have been provided for inspiration and starter decks in `/free cards/`
+</details>
+
+<details><summary> Printing</summary>
+
+**Cheapest**     
+The cheapest method is obviously printing the cards yourself using cardstock and cutting the paper yourself or buying paper specifically made for printing business cards at home.
+
+**Easiest - One Design**     
+The easiest way to print one card multiple times (e.g. your own card for swapping) is to find literally any printing service and give them the image file of your card. This could take the form of an only service such as vistaprint, or an office store like staples.
+
+**Easiest - A Custom Deck (many designs)**     
+Makeplayingcards.com has no minimum order and the ability to customize every card, front and back. You can make business card sized cards there. [Here is a direct link to that product page](https://www.makeplayingcards.com/design/custom-business-card-deck.html). You can also make cool custom deck boxes there. I have printed with them in the past and they've made me brand loyal. (the link to them is not an affiliate link)
+
+MakePlayingCards.com has its own downloadable templates, an optional software to use to design cards, and always prints rounded corners. I've included their template in `/templates/`.
 </details>
 
 # Questions, Issues, Additions
