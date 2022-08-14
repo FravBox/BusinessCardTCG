@@ -81,7 +81,7 @@ header a {
 
 article {
   padding: 0 2rem;
-  padding-bottom: 32rem;
+  padding-bottom: 8rem;
 }
 
 h1,
@@ -146,8 +146,36 @@ div.dark {
   header a {
     padding: 20px;
   }
+  article {
+    padding-bottom: 16rem;
+  }
   #card-container {
     height: 40rem;
     margin-bottom: -15rem;
+  }
+}
+
+/* 
+ * Figures
+ */
+figure {
+  border: 1px solid orange;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  padding: 1rem;
+}
+
+@media only screen and (min-width: 900px) {
+  figure {
+    border: 1px solid orange;
+    flex-direction: row;
+  }
+  figure img {
+    max-height: 20rem;
+  }
+  figure.portrait img {
+    max-height: 40rem;
   }
 }
