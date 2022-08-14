@@ -1,1 +1,174 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EditorTCG</title>
+    <link rel="stylesheet" href="./css.css" />
+    <script src="./random.js"></script>
+  </head>
+  <body onload="setRandomCard()">
+    <header>
+      <a href="/" class="active">Home</a>
+      <a href="/">Examples</a>
+      <a href="/">Instructions</a>
+      <a href="/">Templates</a>
+    </header>
+    <article>
+      <div id="card-container"></div>
+      <div class="dark"></div>
+      <h1 class="shadow">Business<wbr />Card<wbr />TCG</h1>
+      <p class="shadow">
+        The Business Card Trading Card Game was invented to incentivize swapping
+        cards among friends in hobbyist communities and at conventions.
+        Literally any business card (with an icon) can be added to a deck.
+      </p>
+      <p class="shadow">
+        You only need two players with one card each to get started.
+      </p>
+      <details>
+        <summary>Intent</summary>
+        <p>
+          In the 90s, hobby and fandom meetups would pass around VHS tapes,
+          booklets, and CDs to help pass their work around within their
+          respective communities. Now that everything is digital, these physical
+          pieces of memorabilia rarely get passed around anymore.
+        </p>
+        <p>
+          So I decided to invent an easy to access method and game to share our
+          social media and work among our friends at meetups and conventions in
+          a fun and interesting way.
+        </p>
+      </details>
+
+      <h1>How To Play</h1>
+
+      <p>
+        Paper Icon beats Rock Icon. Rock Icon beats Scissors Icon. Scissors Icon
+        beats Paper Icon.
+      </p>
+      <h2>Standard Method</h2>
+      <p>
+        There are two players. They shuffle their decks and place them face
+        down. They each draw the first card and place it face up. Winning icon
+        wins the game. You can play any number of rounds. The minimum deck size
+        is one.
+      </p>
+
+      <details>
+        <summary>Other Play Methods</summary>
+
+        <h2>Modified Method</h2>
+        <p>
+          There are two players. They shuffle their decks and them face down.
+          They each draw 3 cards and place them into their hand. They play their
+          chosen card from their hand face down. When both players are ready,
+          they reveal their played cards. Winning icon wins the game. You can
+          play any number of rounds. The minimum deck size is 3.
+        </p>
+        <h2>Restrictive Method</h2>
+        <p>
+          There are two players. They look through their decks for one card of
+          each icon plus an additional card of their choice (4 cards total).
+          They place these cards into their hand. Each round, they play one card
+          face down until both players are ready. Then they reveal the cards at
+          the same time.
+        </p>
+        <p>
+          Each card in their hand can only be played once. Play continues until
+          they are out of cards in their hand. The winner is determined by
+          either the first win or the most wins. The minimum deck size is 4.
+        </p>
+        <h2>Creative Method</h2>
+        <p>
+          You can make up your own rules. It can be Roshambo-based or based on
+          something entirely different. Maybe you each have large decks, so you
+          play a modified game of Go Fish for a pair of two cards with a
+          specific name, letter, or theme. Perhaps you share a deck and play a
+          community-specific version of Guess Who.
+        </p>
+        <p>The options are limitless.</p>
+      </details>
+
+      <h1>Making Cards</h1>
+
+      <details>
+        <summary>Required Icons</summary>
+        <p>
+          In order to play the game, the business card must have 1 of 3 icons:
+          Rock, Paper, or Scissors.
+        </p>
+        <p>
+          The suggested icons are these public domain ones made by
+          <a href="https://thenounproject.com/fissionstrategy/"
+            >Fission Strategy</a
+          >. They have been re-uploaded here in
+          <a href="https://github.com/FravBox/BusinessCardTCG/tree/main/icons"
+            >/icons/</a
+          >
+          in both PNG and SVG formats. These icons can be any orientation,
+          color, or size, as long as they are immediately legible on the card.
+        </p>
+        <p>
+          However, you can use other icons that represent the same thing, as
+          long as they are easily understood.
+        </p>
+      </details>
+
+      <details>
+        <summary>Design</summary>
+        <p>
+          The cards should be the standard business card size of 3.5" x 2". In
+          [`/templates/`](./templates/) you will find a very basic PSD and PNG
+          file of the appropriate size.
+        </p>
+        <p>
+          Your card can have literally anything on it as long as it has one of
+          the 3 icons. Some sample cards have been provided for inspiration and
+          starter decks in [`/free cards/`](./free%20cards/)
+        </p>
+      </details>
+      <details>
+        <summary>Printing</summary>
+        <h2>Cheapest</h2>
+        <p>
+          The cheapest method is obviously printing the cards yourself using
+          cardstock and cutting the paper yourself or buying paper specifically
+          made for printing business cards at home.
+        </p>
+        <h2>Easiest - One Design</h2>
+        <p>
+          The easiest way to print one card multiple times (e.g. your own card
+          for swapping) is to find literally any printing service and give them
+          the image file of your card. This could take the form of an only
+          service such as vistaprint, or an office store like staples.
+        </p>
+        <h2>Easiest - A Custom Deck (many designs)</h2>
+        <p>
+          Makeplayingcards.com has no minimum order and the ability to customize
+          every card, front and back. You can make business card sized cards
+          there.
+          <a
+            href="https://www.makeplayingcards.com/design/custom-business-card-deck.html"
+          >
+            Here is a direct link to that product page</a
+          >. You can also make cool custom deck boxes there. I have printed with
+          them in the past and they've made me brand loyal. (the link to them is
+          not an affiliate link)
+        </p>
+        <p>
+          MakePlayingCards.com has its own downloadable templates, an optional
+          software to use to design cards, and always prints rounded corners.
+          I've included their template in [`/templates/`](./templates/). There's
+          also some premade templates for MPC that have `[MPC]` in their name.
+        </p>
+      </details>
+
+      <h1>Questions, Issues, Additions</h1>
+      Feel free to contact me on Twitter:
+      <a href="https://twitter.com/jy_den">jy_den</a>. You can also start a
+      discussion, issue, and/or pull request.
+    </article>
+  </body>
+</html>

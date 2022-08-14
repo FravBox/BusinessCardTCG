@@ -1,0 +1,153 @@
+:root {
+  --background: #121111;
+  --highlight: #ffa500;
+  --text: #fff;
+}
+
+/* 
+ * Defaults
+ */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji",
+    "Segoe UI Symbol";
+}
+
+html,
+body {
+  background-color: var(--background);
+  color: var(--text);
+}
+
+body {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
+/* 
+ * Links
+ */
+
+a {
+  transition: color 0.2s linear;
+}
+
+a,
+a:visited,
+a:focus,
+a:active {
+  color: var(--highlight);
+  border-bottom: 1px solid orange;
+}
+
+a:hover {
+  color: var(--text);
+}
+
+a.active {
+  color: var(--text);
+}
+
+/* 
+ * Header
+ */
+
+header {
+  width: 100%;
+  position: relative;
+  top: 0;
+  display: flex;
+  align-content: flex-end;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+  background-color: var(--background);
+  gap: 0.5rem;
+  padding: 15px 1rem;
+}
+
+header a {
+  padding: 10px;
+  vertical-align: middle;
+}
+
+/* 
+ * Content
+ */
+
+article {
+  padding: 0 2rem;
+  padding-bottom: 32rem;
+}
+
+h1,
+h2 {
+  color: var(--highlight);
+}
+
+h1 {
+  font-size: 42px;
+  margin: 1rem 0;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 0.75rem 0;
+}
+
+p {
+  margin-bottom: 0.75rem;
+}
+
+summary {
+  margin-bottom: 0.75rem;
+  font-weight: bold;
+}
+
+.shadow {
+  text-shadow: 0 0 5px black;
+}
+
+/* 
+ * Card & container
+ */
+
+#card-container {
+  background-color: var(--background);
+  content: "";
+  height: 20rem;
+  max-width: 90%;
+  margin: 0 auto;
+  margin-bottom: -5rem;
+  background-size: contain;
+  background-position: 50% 0%;
+  background-repeat: repeat-y;
+}
+
+div.dark {
+  content: "";
+  height: 20rem;
+  margin-bottom: -20rem;
+  background: linear-gradient(to top, var(--background) 25%, transparent);
+}
+
+/* 
+ * Desktop overrides
+ */
+@media only screen and (min-width: 900px) {
+  header {
+    gap: 1rem;
+    position: sticky;
+  }
+  header a {
+    padding: 20px;
+  }
+  #card-container {
+    height: 40rem;
+    margin-bottom: -15rem;
+  }
+}
