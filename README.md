@@ -102,5 +102,5 @@ MakePlayingCards.com has its own downloadable templates, an optional software to
 
 # Questions, Issues, Additions
 
-Feel free to contact me on Twitter: [jy_den](https://twitter.com/jy_den).  
+Feel free to contact me on Discord: `@standardquip` (Vars).  
 You can also start a discussion, issue, and/or pull request.
